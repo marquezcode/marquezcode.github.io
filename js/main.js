@@ -1,6 +1,7 @@
 // Functions for each action-command.
 
 function help(){
+
   return "<h2><span style=\"color:#eb926d;\">Help:</span></h2><table>\
   <tr>\
     <td>all</td>\
@@ -103,83 +104,6 @@ function links(){
   <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
   <li><a href=\"https://www.facebook.com\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
   </ul>";
-}
-
-function rickroll(){
-  return "<p>We're no strangers to love<br>\
-    You know the rules and so do I<br>\
-    A full commitment's what I'm thinking of<br>\
-    You wouldn't get this from any other guy<br>\
-    <br>\
-    I just wanna tell you how I'm feeling<br>\
-    Gotta make you understand<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    We've known each other for so long<br>\
-    Your heart's been aching, but<br>\
-    You're too shy to say it<br>\
-    Inside, we both know what's been going on<br>\
-    We know the game and we're gonna play it<br>\
-    <br>\
-    And if you ask me how I'm feeling<br>\
-    Don't tell me you're too blind to see<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    (Ooh, give you up)<br>\
-    (Ooh, give you up)<br>\
-    Never gonna give, never gonna give<br>\
-    (Give you up)<br>\
-    Never gonna give, never gonna give<br>\
-    (Give you up)<br>\
-    <br>\
-    We've known each other for so long<br>\
-    Your heart's been aching, but<br>\
-    You're too shy to say it<br>\
-    Inside, we both know what's been going on<br>\
-    We know the game and we're gonna play it<br>\
-    <br>\
-    I just wanna tell you how I'm feeling<br>\
-    Gotta make you understand<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you<br>\
-    <br>\
-    Never gonna give you up<br>\
-    Never gonna let you down<br>\
-    Never gonna run around and desert you<br>\
-    Never gonna make you cry<br>\
-    Never gonna say goodbye<br>\
-    Never gonna tell a lie and hurt you</p>";
 }
 
 // Main Function
