@@ -91,7 +91,7 @@ a{
   box-sizing: border-box;
 }
 
-#Copyright{
+footer{
   color: #373b41;
   margin:2%;
 }
@@ -120,7 +120,7 @@ a{
 }
 
 #eng, #esp {
-  size: 20px;
+  size: 50px;
   margin: 5px;
 
 }
