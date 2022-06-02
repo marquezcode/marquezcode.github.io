@@ -118,3 +118,9 @@ a{
 #userInput{
   margin-top: 20px;
 }
+
+#eng, #esp {
+  size: 20px;
+  margin: 5px;
+
+}
