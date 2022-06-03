@@ -91,7 +91,7 @@ function credits(){
 
 function links(){
   return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
-  <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
+  <li><a href=\"https://www.linkedin.com/in/gerardmarquez\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
   <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
   <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
   </ul>";
