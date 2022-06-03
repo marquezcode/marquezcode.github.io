@@ -13,7 +13,7 @@ a{
 #sidebar{
   margin: 5%;
   margin-top: 0.5%;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 #terminal{

@@ -9,27 +9,23 @@ function help(){
   </tr>\
   <tr>\
     <td>about</td>\
-    <td>Everything you ever wanted to know about John Smith</td>\
+    <td>Everything you ever wanted to know about Gerard Marquez</td>\
   </tr>\
   <tr>\
     <td>contact</td>\
-    <td>How to get in touch with John Smith</td>\
+    <td>How to get in touch with Gerard Marquez</td>\
   </tr>\
   <tr>\
     <td>links</td>\
-    <td>See what links John Smith wants you to click on</td>\
+    <td>See what links Gerard Marquez wants you to click on</td>\
   </tr>\
   <tr>\
     <td>skills</td>\
-    <td>Get to know how good John Smith is at stuff</td>\
+    <td>Get to know how good Gerard Marquez is at stuff</td>\
   </tr>\
   <tr>\
     <td>cv</td>\
-    <td>Download John Smith's CV</td>\
-  </tr>\
-  <tr>\
-    <td>rickroll</td>\
-    <td>Never Gonna Give You Up</td>\
+    <td>Download Gerard Marquez's CV</td>\
   </tr></table>";
 }
 
@@ -37,38 +33,38 @@ function contact(){
   return "<h2><span style=\"color:#cc6666;\">Contact:</span></h2><table>\
   <tr>\
     <td>Email</td>\
-    <td><a href=\"mailto:john.smith@emailprovider.com\">john.smith@emailprovider.com</a></td>\
+    <td><a href=\"mailto:gerardmarquez96@gmail.com\">gerardmarquez96@gmail.com</a></td>\
   </tr>\
   <tr>\
     <td>Telephone</td>\
-    <td><a href=\"tel:+45-657-56234\">+45-657-56234</a></td>\
+    <td><a href=\"tel:+34-605-945-154\">+34-605-945-154</a></td>\
   </tr>\
   <tr>\
     <td>Address</td>\
-    <td>John Smith</td>\
+    <td>Gerard Marquez</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>205 Autumn Street</td>\
+    <td>Isabel la Católica 12</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>5472</td>\
+    <td>08291</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>London</td>\
+    <td>Ripollet</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>UK</td>\
+    <td>ESP</td>\
   </tr></table>";
 }
 
 function skills(){
   return "<h2><span style=\"color:#81a2be;\">Skills:</span></h2><table>\
   <tr>\
-    <td>Photoshop</td>\
+    <td>HTML & CSS</td>\
     <td>▰▰▰▰▰▰▱▱▱▱ 60%</td>\
   </tr>\
   <tr>\
@@ -76,17 +72,13 @@ function skills(){
     <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
   </tr>\
   <tr>\
-    <td>Premiere Pro</td>\
-    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
-  </tr>\
-  <tr>\
-    <td>Rickrolling</td>\
-    <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
+    <td>PHP</td>\
+    <td>▰▰▰▰▰▱▱▱▱▱ 80%</td>\
   </tr></table>";
 }
 
 function about(){
-  return "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+  return "<p>Web programmer and IT technician currently working and studying Computer Engineering.</p>";
 }
 
 function cv(){
@@ -94,7 +86,7 @@ function cv(){
 }
 
 function credits(){
-  return "<p>Built by <a href=\"https://www.github.com/CedArctic\" target=\"_blank\"><i class=\"fab fa-github\"></i> CedArctic</a></p>";
+  return "<p>Built by <a href=\"https://www.github.com/marquezcode\" target=\"_blank\"><i class=\"fab fa-github\"></i> MarquezCode</a></p>";
 }
 
 function links(){
@@ -102,7 +94,6 @@ function links(){
   <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
   <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
   <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
-  <li><a href=\"https://www.facebook.com\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
   </ul>";
 }
 
@@ -133,10 +124,6 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML=skills();
     }else if (txtInput=="links") {
       document.getElementById('injected').innerHTML=links();
-    }else if (txtInput == "rickroll") {
-      var win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
-      win.focus();
-      document.getElementById('injected').innerHTML=rickroll();
     }else if (txtInput == "credits") {
       document.getElementById('injected').innerHTML=credits();
     }else{
