@@ -97,6 +97,10 @@ function links(){
   </ul>";
 }
 
+function video(){
+  return "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/81j27fEOmUg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+}
+
 // Main Function
 function commandProcessor(e){
 
@@ -126,6 +130,8 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML=links();
     }else if (txtInput == "credits") {
       document.getElementById('injected').innerHTML=credits();
+    }else if (txtInput == "video") {
+      document.getElementById('injected').innerHTML=video();
     }else{
       document.getElementById('injected').innerHTML = help();
     }
