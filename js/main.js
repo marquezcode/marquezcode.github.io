@@ -24,6 +24,10 @@ function help(){
     <td>Get to know how good Gerard Marquez is at stuff</td>\
   </tr>\
   <tr>\
+    <td>video</td>\
+    <td>Get to see my past self presenting a web project in may 2021!</td>\
+  </tr>\
+  <tr>\
     <td>cv</td>\
     <td>Download Gerard Marquez's CV</td>\
   </tr></table>";
@@ -117,7 +121,7 @@ function commandProcessor(e){
     if(txtInput == "help"){
       document.getElementById('injected').innerHTML=help();
     }else if (txtInput=="all") {
-      document.getElementById('injected').innerHTML=about() + "\n\n\n" + skills() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv();
+      document.getElementById('injected').innerHTML=about() + "\n\n\n" + skills() + "\n\n\n" + links() + "\n\n\n" + contact() + "\n\n\n" + cv() + "\n\n\n" + video();
     }else if (txtInput == "about") {
       document.getElementById('injected').innerHTML=about();
     }else if (txtInput == "contact") {
