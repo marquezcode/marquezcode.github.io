@@ -119,6 +119,10 @@ footer{
   margin-top: 20px;
 }
 
+#lang {
+  margin: 2%;
+}
+
 #eng, #esp {
   margin: 2px;
 }
